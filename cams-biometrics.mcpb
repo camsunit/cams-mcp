@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "0.1.0",
+  "name": "cams-biometrics",
+  "displayName": "Cams Biometrics",
+  "description": "AI-powered biometric device management. Monitor device health, analyze transactions, troubleshoot issues, and manage your biometric fleet using natural language.",
+  "version": "1.0.0",
+  "publisher": "Cams Biometrics",
+  "homepage": "https://github.com/camsunit/cams-mcp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/camsunit/cams-mcp"
+  },
+  "license": "MIT",
+  "runtime": {
+    "type": "python",
+    "pythonVersion": ">=3.10"
+  },
+  "install": {
+    "command": "pip",
+    "args": ["install", "-e", "."]
+  },
+  "run": {
+    "command": "python",
+    "args": ["-m", "cams_biometrics_mcp"]
+  },
+  "categories": [
+    "monitoring",
+    "device-management",
+    "iot"
+  ],
+  "keywords": [
+    "biometrics",
+    "attendance",
+    "device-management",
+    "monitoring",
+    "iot",
+    "access-control"
+  ],
+  "icon": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%234CAF50'/%3E%3Ctext x='50' y='65' font-size='50' text-anchor='middle' fill='white' font-family='Arial'%3ECB%3C/text%3E%3C/svg%3E",
+  "author": {
+    "name": "Cams Biometrics",
+    "email": "contact@dheeram.org"
+  },
+  "support": {
+    "email": "contact@dheeram.org",
+    "url": "https://developer.camsbiometrics.com"
+  },
+  "tools": [
+    {
+      "name": "ping_connection",
+      "description": "Test server connectivity"
+    },
+    {
+      "name": "fetch_device_inventory",
+      "description": "Get all registered biometric devices"
+    },
+    {
+      "name": "check_device_health",
+      "description": "Check device status, license validity, and health"
+    },
+    {
+      "name": "analyze_device_activity",
+      "description": "View transaction logs and attendance metrics"
+    },
+    {
+      "name": "migration_status",
+      "description": "Check device migration status"
+    },
+    {
+      "name": "reset_device_queue",
+      "description": "Restart stuck data processing queues"
+    }
+  ],
+  "config": {
+    "required": [],
+    "optional": [
+      {
+        "name": "CAMS_API_URL",
+        "description": "Cams Biometrics API endpoint",
+        "default": "https://mcp.camsbiometrics.com/api"
+      },
+      {
+        "name": "LOG_LEVEL",
+        "description": "Logging level (DEBUG, INFO, WARNING, ERROR)",
+        "default": "INFO"
+      }
+    ]
+  }
+}
