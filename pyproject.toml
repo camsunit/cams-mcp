@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cams-biometrics-mcp"
+version = "1.0.0"
+description = "MCP server for AI-powered biometric device management through Claude"
+readme = "README.md"
+authors = [
+    { name = "Cams Biometrics", email = "contact@dheeram.org" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.10"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Monitoring",
+]
+keywords = ["mcp", "claude", "biometrics", "attendance", "device-management", "ai"]
+
+dependencies = [
+    "mcp>=1.0.0",
+    "httpx>=0.27.0",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/camsunit/cams-mcp"
+Documentation = "https://developer.camsbiometrics.com"
+Repository = "https://github.com/camsunit/cams-mcp"
+Issues = "https://github.com/camsunit/cams-mcp/issues"
+Changelog = "https://github.com/camsunit/cams-mcp/releases"
+
+[project.scripts]
+cams-biometrics-mcp = "cams_biometrics_mcp.server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+cams_biometrics_mcp = ["py.typed"]
