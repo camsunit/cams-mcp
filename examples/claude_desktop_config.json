@@ -1,0 +1,39 @@
+{
+  "mcpServers": {
+    "cams-biometrics": {
+      "command": "python",
+      "args": ["-m", "cams_biometrics_mcp"],
+      "env": {
+        "CAMS_API_URL": "https://mcp.camsbiometrics.com/mcp",
+        "LOG_LEVEL": "INFO"
+      }
+    }
+  }
+}
+```
+
+---
+
+## **Summary of What Goes in GitHub**
+
+✅ **Include:**
+- All source code files above
+- README with comprehensive documentation
+- LICENSE (MIT)
+- .gitignore
+- requirements.txt
+- pyproject.toml for packaging
+- Example configuration files
+
+❌ **Exclude:**
+- Real API credentials
+- `.env` files with secrets
+- Log files
+- `__pycache__` directories
+- Your backend API implementation
+
+---
+
+## **GitHub URL to Submit**
+```
+https://github.com/camsunit/cams-mcp
