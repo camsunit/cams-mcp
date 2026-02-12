@@ -1,4 +1,4 @@
-# Cams Biometrics MCP Server
+#  Biometrics AI Agent
 
 AI-powered biometric device management for Claude Desktop and Claude Code.
 
