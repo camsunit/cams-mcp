@@ -60,7 +60,7 @@ Add to your Claude Desktop config file:
 
 ### Getting Credentials
 
-1. Visit [developer.camsbiometrics.com](https://developer.camsbiometrics.com)
+1. Visit [camsbiometrics.com](https://camsbiometrics.com)
 2. Sign up or log in to your account
 3. Navigate to API Credentials
 4. Generate your `client_key` and `pass_code`
@@ -241,7 +241,7 @@ src/cams_biometrics_mcp/
 **Problem:** "Authentication failed" or "Invalid credentials"
 
 **Solutions:**
-- Verify your `client_key` and `pass_code` at [developer.camsbiometrics.com](https://developer.camsbiometrics.com)
+- Get your `client_key` and `pass_code` at [camsbiometrics.com](https://camsbiometrics.com)
 - Ensure credentials haven't expired
 - Check for typos in credentials
 - Regenerate credentials if needed
@@ -279,9 +279,8 @@ src/cams_biometrics_mcp/
 
 - 📧 **Email:** contact@dheeram.org
 - 🌐 **Website:** [camsbiometrics.com](https://camsbiometrics.com)
-- 📖 **API Docs:** [developer.camsbiometrics.com](https://developer.camsbiometrics.com)
-- 🐛 **Issues:** [GitHub Issues](https://github.com/camsunit/cams-mcp/issues)
-- 💬 **Discussions:** [GitHub Discussions](https://github.com/camsunit/cams-mcp/discussions)
+- 📖 **Video:** [YouTube: Agentic API: Introducing the future of Biometric API management](https://www.youtube.com/watch?v=RhzmKA8KZFA&t=2s)
+- 📖 **Help Doc:** [forum.camsbiometrics.com](https://forum.camsbiometrics.com/next-gen-remote-biometric-device-management-using-ai-assistants/) 
 
 ## Contributing
 
