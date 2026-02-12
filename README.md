@@ -24,7 +24,7 @@ The Cams Biometrics MCP server enables conversational management of biometric at
 ### Prerequisites
 
 - Python 3.10 or higher
-- Cams Biometrics API credentials ([Sign up here](https://developer.camsbiometrics.com))
+- Cams Biometrics API credentials ([Sign up here](https://camsbiometrics.com))
 
 ### Install via pip
 ```bash
