@@ -619,6 +619,8 @@ The AI Agent itself costs nothing - you only pay for connectivity licenses on yo
 **🤖 Deploy your Biometric AI Agent today:**  
 Demo it now with `mcpdemo` / `mcpdemo` at [camsbiometrics.com](https://camsbiometrics.com) and experience the future of intelligent device management!
 
+**lobehub MCP Badge:** [![MCP Badge](https://lobehub.com/badge/mcp/camsunit-cams-mcp)](https://lobehub.com/mcp/camsunit-cams-mcp)
+
 ---
 
 **Keywords for search:** biometric ai agent, attendance system ai assistant, ai-powered biometric monitoring, conversational device management, claude biometric integration, chatgpt attendance system, mcp biometric server, intelligent fleet management, ai biometric dashboard, natural language device control, smart attendance monitoring, enterprise biometric ai
