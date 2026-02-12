@@ -8,7 +8,7 @@ version = "1.0.0"
 description = "MCP server for AI-powered biometric device management through Claude"
 readme = "README.md"
 authors = [
-    { name = "Cams Biometrics", email = "contact@dheeram.org" }
+    { name = "Cams Biometrics", email = "support@camsbiometrics.com" }
 ]
 license = { text = "MIT" }
 requires-python = ">=3.10"
