@@ -509,7 +509,7 @@ def new_feature_route(mcp):
 - 📺 **Video Tutorial:** [YouTube Demo](https://www.youtube.com/watch?v=RhzmKA8KZFA&t=2s)
 - 📝 **Blog Post:** [AI-Powered Device Management](https://forum.camsbiometrics.com/next-gen-remote-biometric-device-management-using-ai-assistants/)
 - 🔧 **API Reference:** [Biometric Web API](https://camsbiometrics.com/application/biometric-web-api.html)
-- 💬 **Support:** contact@dheeram.org
+- 💬 **Support:** support@camsbiometrics.com
 
 ## 🤝 Contributing
 
