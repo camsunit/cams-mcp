@@ -9,7 +9,7 @@
 
 > Transform your biometric attendance system into an intelligent AI agent. Monitor devices, analyze transactions, troubleshoot issues, and manage your entire fleet using natural language commands through Claude, ChatGPT, or Google Gemini.
 
-**🔍 SEO Description:** Open-source Biometric AI Agent for conversational device management. Connect Claude, ChatGPT, or Gemini to your biometric attendance fleet. Monitor health, analyze transactions, reset queues using natural language. Works with ZKTeco, eSSL, Suprema, Anviz. Free AI agent, pay only for device licenses. 150K+ devices, 100+ countries, 500M+ daily transactions.
+**🔍  Description:** Open-source Biometric AI Agent for conversational device management. Connect Claude, ChatGPT, or Gemini to your biometric attendance fleet. Monitor health, analyze transactions, reset queues using natural language. Works with ZKTeco, eSSL, Suprema, Anviz. Free AI agent, pay only for device licenses. 150K+ devices, 100+ countries, 500M+ daily transactions.
 
 **📱 Perfect For:** IT administrators, facility managers, security teams, HR departments, system integrators, enterprise biometric deployments, multi-location attendance tracking, partner account management
 
